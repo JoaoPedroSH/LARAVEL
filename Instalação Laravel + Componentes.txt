@@ -1,0 +1,17 @@
+Baixar Composer e instalar
+	https://getcomposer.org/
+
+Alterar ou Adicionar em php.ini (AppServ,Xampp)
+	extension=php_fileinfo.dll
+
+Através do terminal do VsCode baixa o Laravel Através do Composer
+	composer global require laravel/installer
+
+Instalar Laravel e criar projeto
+	laravel new nome_do_projeto
+
+Comando alternativo (Instala Laravel e cria projeto atraves do Composer)
+	composer create-project --prefer-dist laravel/laravel:^7.0 nome_do_projeto
+
+Starta um servidor de desenvolvimento para a aplicação
+	php artisan serve
